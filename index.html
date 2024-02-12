@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebTech</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <div class="header__box">
+            <a class="header__logo" href="#">
+              <img class="header__img" src="./img/logo.png" alt="Logo">
+            </a>
+            <h1 class="header__title">TechShop</h1>
+          </div>
+
+          <button class="burger" type="button">
+            <span class="burger__line"></span>
+            <span class="sr-only">Открыть меню</span>
+          </button>
+
+          <nav class="header__nav nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Главная
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  Товары
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">
+                  О нас
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <nav class="mobile-nav">
+        <ul class="mobile-nav__list">
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link" href="#">
+              Главная
+            </a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link" href="#">
+              Товары
+            </a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link" href="#">
+              О нас
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="prev">
+        <div class="container">
+          <div class="prev__text">
+            <h2 class="prev__title">Наши продукты</h2>
+            <div class="prev__descr">
+              <p class="prev__price">Цена = Качество</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="container">
+          <div class="content__text">
+            <h2 class="content__title">Успей приобрести!</h2>
+            <p class="content__descr">
+              Только сейчас можно выиграть новенький телефон.
+            </p>
+          </div>
+
+          <div class="content__cards">
+            <article class="card card--one">
+              <img class="card__img" src="./img/phone1.jpg" alt="SmartPhone">
+              <div class="card__body">
+                <h3 class="card__title">SmartPhone</h3>
+                <span class="card__price">Цена: 599$</span>
+                <a class="card__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img class="card__img" src="./img/phone2.png" alt="SmartPhone">
+              <div class="card__body">
+                <h3 class="card__title">SmartPhone</h3>
+                <span class="card__price">Цена: 700$</span>
+                <a class="card__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img class="card__img" src="./img/phone3.png" alt="SmartPhone">
+              <div class="card__body">
+                <h3 class="card__title">SmartPhone</h3>
+                <span class="card__price">Цена: 450$</span>
+                <a class="card__link" href="#">
+                  Подробнее
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__social">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">
+                <img class="footer__icon" src="./img/VK.svg" alt="Icon VK">
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">
+                <img class="footer__icon" src="./img/email.svg" alt="Icon Email">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__copyright">
+          <p class="footer__copy">
+            Copyright 2023 All right reserved By... ©
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
