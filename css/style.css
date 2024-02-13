@@ -378,7 +378,7 @@ body {
 }
 
 .mobile-nav.mobile-nav--open {
-  transform: translateY(0);;
+  transform: translateY(0);
 }
 
 .mobile-nav__list {
